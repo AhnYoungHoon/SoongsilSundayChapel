@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const http = require("http");
 setInterval(function () {
     http.get("https://soongsilsundaychapel.herokuapp.com/");
-}, 900000);
+}, 600000);
 
 
 
