@@ -1,0 +1,53 @@
+#outer{
+    text-align: center;
+}
+
+#inner{
+    display: inline-block;
+    text-align: left;
+    width: 650px;
+}
+
+#inner #title h2{
+    font-size: 26pt;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#inner #title h3{
+    font-size: 30pt;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+#place img{
+    width: 500px;
+}
+
+#online img{
+    width: 500px;
+}
+
+.goto{
+    text-decoration: none;
+    color: red;
+}
+
+h3 a{
+    font-size: 10pt;
+}
+
+.small-content h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25pt;
+}
+
+.small-content p{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.small-content h4{
+    font-family: 'Nanum Pen Script', cursive;
+}
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif; */

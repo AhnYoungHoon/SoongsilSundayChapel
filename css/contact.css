@@ -1,0 +1,29 @@
+#contactOutter{
+    text-align: center;
+}
+
+#contactInner{
+    display: inline-block;
+    text-align: left;
+}
+
+#contactInner h2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#contactInner p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25pt;
+}
+
+#contactInner label{
+    font-family: 'Gothic A1', sans-serif;
+}
+/* #message{
+    width: 300px;
+    height: 200px;
+} */
+
+#honeypot {
+    display: none; /*일반적인 사용자에게 보이지 않도록 숨기세요*/
+  }

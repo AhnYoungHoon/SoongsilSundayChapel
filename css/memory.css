@@ -1,0 +1,38 @@
+#main{
+    display: block;
+    margin: auto;
+    width: 640px;
+    height: 350px;
+}
+#main img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#sub{
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+#sub img{
+    display: inline-block;
+    height: 153px;
+    width: 213px;
+    object-fit: contain;
+}
+#outer{
+    text-align: center;
+}
+#inner{
+    display: inline-block;
+    text-align: left;
+}
+
+#inner h2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#inner p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20pt;
+}
