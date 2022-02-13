@@ -3,10 +3,7 @@ const morgan = require('morgan');
 const path = require('path');
 const nunjucks = require('nunjucks');
 const bodyParser = require('body-parser');
-const http = require("http");
-setInterval(function () {
-    http.get("https://soongsilsundaychapel.herokuapp.com/");
-}, 600000);
+
 
 
 
