@@ -21,6 +21,10 @@ router.get('/contact', (req, res) => {
     res.render('contact');
 });
 
+router.get('/auth', (req, res) => {
+    res.render('auth');
+});
+
 
 
 
