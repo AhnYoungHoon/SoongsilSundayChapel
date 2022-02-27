@@ -24,10 +24,11 @@
     display: inline-block;
     text-align: center;
 }
-#sub img{
+.sub{
     display: inline-block;
+    
     text-align: center;
-    height: 153px;
+    height: 150px;
     width: 213px;
     object-fit: contain;
 }

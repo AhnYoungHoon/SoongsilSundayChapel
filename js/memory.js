@@ -22,13 +22,13 @@ function prev() {
     }
 }
 function next() {
-    if (curPos < 1) {
+    if (curPos < 2) {
         prevBtn.removeAttribute("disabled")
         postion -= IMAGE_HEIGT;
         images.style.transform = `translateY(${postion}px)`;
         curPos = curPos + 1;
     }
-    if (curPos == 1) {
+    if (curPos == 2) {
         nextBtn.setAttribute('disabled', 'true')
     }
 }
