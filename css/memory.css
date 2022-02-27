@@ -9,13 +9,24 @@
     width: 100%;
     object-fit: contain;
 }
-#sub{
-    display: block;
+#slides-container{
     text-align: center;
+}
+#sub-outter{
+    text-align: center;
+    display: inline-block;
     overflow: hidden;
+    width: 779px;
+    height: 150px;
+}
+#sub{
+    
+    display: inline-block;
+    text-align: center;
 }
 #sub img{
     display: inline-block;
+    text-align: center;
     height: 153px;
     width: 213px;
     object-fit: contain;
